@@ -622,7 +622,9 @@ img { display: block; max-width: 100%; }
     --slider-speed: 22s;
   }
 
-  .conteneur { padding: 0 24px; }
+  .conteneur { padding-left: 24px; padding-right: 24px; }
+
+  .entete-interieur { padding-top: 26px; padding-bottom: 26px; }
 
   .nav-principale { display: none; }
   .entete-interieur .bouton-sombre { display: none; }
@@ -643,6 +645,7 @@ img { display: block; max-width: 100%; }
 
   .pied-de-page__interieur { flex-direction: column; align-items: flex-start; }
   .pied-de-page__contact { text-align: left; }
+  .pied-de-page__bas { padding-top: 32px; padding-bottom: 32px; }
 
   .espaceur-section { height: 40px; }
 }
